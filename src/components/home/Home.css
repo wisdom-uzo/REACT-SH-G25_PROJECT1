@@ -1,0 +1,15 @@
+.home {
+  background-color: #d1411e;
+  height: calc(100vh - 80px);
+  display: flex;
+}
+
+.home_left {
+  flex: 1;
+}
+
+.home_right > img {
+  flex: 1;
+  width: 50rem;
+  object-fit: contain;
+}
