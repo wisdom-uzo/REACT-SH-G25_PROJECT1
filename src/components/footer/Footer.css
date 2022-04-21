@@ -1,0 +1,74 @@
+.app_footer_container{
+    width: 100%;
+    background: #000000;
+    color: white;
+}
+.app_footer-sec1{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 3rem 1rem;
+
+}
+.app_footer-sec1 h3{
+    margin-bottom: 1.5rem;
+}
+.app_footer-sec1 p{
+    margin-bottom: 1rem;
+    color: #e0dede;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+.app_footer-sec1 p span{
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+.footer_social li{
+    list-style: none;
+    margin-bottom: 0.5rem;
+}
+.footer_social li:hover{
+    text-decoration: underline;
+}
+.footer_social li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer_social li a:hover{
+    color: #d1411e;
+    
+}
+.footer_icon{
+    margin-right: 1rem;
+}
+
+
+
+
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    .app_footer-sec1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content:space-around;
+      
+    
+    }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+   
+    .app_footer-sec1{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content:center;
+        align-items: center;
+        
+    
+    }
+  }
