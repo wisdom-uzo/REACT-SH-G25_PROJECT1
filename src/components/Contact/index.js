@@ -1,5 +1,5 @@
 import React from 'react'
-import './about.css'
+import './contact.css'
 
 const About = () => {
   return (
@@ -35,7 +35,7 @@ const About = () => {
                 </div>
                   
 
-                <div className="">
+                <div className="form_name">
                     <div className="input-sec">
                         <label htmlFor="">First Name</label>
                         <input type="text" />
@@ -63,10 +63,7 @@ const About = () => {
 
               </div>
 
-                
-
-                 
-                  <button>Submit Message</button>
+                <button className='contact_btn'>Submit Message</button>
               </form>
            </div>
 
