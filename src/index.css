@@ -1,3 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,100&family=Open+Sans:ital,wght@0,300;1,300&family=Roboto:ital,wght@0,100;1,100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif
+}
 .about-box {
     display: flex;
     align-content: center;

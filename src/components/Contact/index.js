@@ -11,15 +11,19 @@ const About = () => {
 
         <div className="about_add_form">
            <div className="">
-              <h2>UK Head Office</h2>
+              <h2>Contact Address</h2>
               <h3>Address</h3>
-              <p>60 <br /> old yaba road <br />
-               Lagos nigrria</p>
+              <p>32 Muritala Eletu street, Osapa, Lekki Peninsula, <br />
+              Lekki, Lagos, <br />
+              Nigeria </p>
 
             <h3>Reservations</h3>
             <p>Call your chosen restaurant</p>
 
             <h2>Telephone</h2>
+             <p>Enquiries: 09091490414 <br />
+             Whatsapp: 08099991568 <br />
+             Events: 08178775944</p>
            </div>
 
             
