@@ -1,8 +1,17 @@
 import React from "react";
 import "./Home.css";
 import HomeImg from "../../assets/Resturant_landing.png";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+  const navigate = useNavigate();
+
+  const exploreMenu = (e) => {
+    e.preventDefault();
+
+    navigate("/products");
+  };
+
   return (
     <section className="home">
       <div className="home_left">
@@ -13,6 +22,10 @@ const Home = () => {
           these connections, featuring local, seasonal produce and sustainably
           sourced seafood and meats
         </p>
+
+        <button className="home_button" onClick={exploreMenu}>
+          Explore Menu
+        </button>
       </div>
       <div className="home_right">
         <img src={HomeImg} alt="home-img" />
