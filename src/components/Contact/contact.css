@@ -1,0 +1,98 @@
+.about_header{
+    height: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url("../../assets/contact.jpg");
+    color: white;
+    padding: 0 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+
+}
+.about_header h2{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.about_add_form{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 5rem;
+}
+
+.contact_form{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+.input-sec{
+  margin-bottom: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+
+}
+
+.input-sec input, .input-sec select{
+    padding: 10px 2px;
+    outline: none;
+    border: 1px solid #d1411e;
+    border-radius:5px ;
+}
+
+.input-sec label{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+.contact_btn{
+    width: 100%;
+    margin-bottom:2rem ;
+    background: #d1411e;
+    padding: 0.7rem 0;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+}
+
+.form_name{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+    .about_add_form{
+        grid-template-columns: 40% 55%;
+        padding: 0 1rem;
+    }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    .about_add_form{
+        grid-template-columns: 1fr;
+     
+    }
+  }
+  
