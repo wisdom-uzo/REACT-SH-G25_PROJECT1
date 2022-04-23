@@ -6,7 +6,9 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar_left">
-        <h1>fill_UP</h1>
+        <h1>
+          <Link to="/"  style={{ textDecoration: "none", color: "#d1411e" }}>fill_UP</Link>
+        </h1>
       </div>
       <div className="navbar_center">
         <ul className="navbar_list-items">
