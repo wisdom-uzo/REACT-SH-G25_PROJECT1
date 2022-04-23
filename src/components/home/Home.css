@@ -1,5 +1,6 @@
 .home {
-  background-color: #d1411e;
+  font-family: cursive;
+  color: aliceblue;
   height: calc(100vh - 80px);
   display: flex;
 }
@@ -33,11 +34,15 @@
   object-fit: contain;
 }
 
+.hm{
+  text-align: center;
+}
 
 .home_button {
   height: 35px;
   width: 120px;
   border: none;
+  border-radius: 10px;
   background-color: whitesmoke;
   color: black;
   margin-top: 40px;
