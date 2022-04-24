@@ -13,9 +13,9 @@ const Home = () => {
   };
 
   return (
-    <section className="home">
+    <section className="home" style={{ backgroundImage: "url(/img/red.jpg"}}>
       <div className="home_left">
-        <h1>The Healthy Food for Wealthy Mood</h1>
+        <h1 className="hm">The Healthy Food for Wealthy Mood</h1>
         <p>
           We believe in the commitment to our community and in fostering long
           term relationships with local farmers and fishermen. Our menus reflect
