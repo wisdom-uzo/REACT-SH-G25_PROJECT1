@@ -17,7 +17,9 @@
     letter-spacing: 5px;
     color: #d1411e;
 }
-
+.navbar .hamburgerBtn{
+  display: none;
+}
 .navbar_list-items {
   display: flex;
   align-items: center;
@@ -42,4 +44,48 @@
     font-weight: 500;
     background-color: #d1411e;
     color: white;
+}
+.showNav{
+  position: absolute;
+  top: 0;
+  z-index: 50;
+  width: 50%;
+  right: 0;
+  background: white;
+  padding: 1rem;
+  display: none;
+}
+.showNav li{
+  list-style: none;
+  margin-top: 1rem;
+}
+
+
+@media screen and (max-width: 600px) {
+ .navbar_center, .signbtn{
+   display: none;
+ }
+ .navbar{
+   justify-content: space-between;
+   padding: 0 2rem;
+ }
+ .navbar .hamburgerBtn, .GrFormClose{
+   background: #d1411e;
+   padding: 5px;
+   font-size: 1.5rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 100%;
+   border: 1px solid transparent;
+   box-shadow: 3px 3px 9px rgb(177, 176, 176);
+   color: white;
+   cursor: pointer;
+ }
+ .navbar_right{
+   margin-top: 1rem;
+ }
+ .showNav{
+   display: block;
+ }
 }

@@ -1,4 +1,11 @@
 import React from 'react'
+import { GoLocation } from 'react-icons/go';
+import { AiOutlineContacts } from 'react-icons/ai';
+import { BsCalendar2EventFill } from 'react-icons/bs';
+import { FaWhatsappSquare } from 'react-icons/fa';
+import { BsFacebook, BsGithub, BsLinkedin, BsTwitter, BsInstagram } from "react-icons/bs";
+
+
 import './contact.css'
 
 const About = () => {
@@ -10,9 +17,9 @@ const About = () => {
         </div>
 
         <div className="about_add_form">
-           <div className="">
+           <div className="address_sec">
               <h2>Contact Address</h2>
-              <h3>Address</h3>
+              <h3><GoLocation /> Address</h3>
               <p>32 Muritala Eletu street, Osapa, Lekki Peninsula, <br />
               Lekki, Lagos, <br />
               Nigeria </p>
@@ -20,10 +27,27 @@ const About = () => {
             <h3>Reservations</h3>
             <p>Call your chosen restaurant</p>
 
-            <h2>Telephone</h2>
-             <p>Enquiries: 09091490414 <br />
-             Whatsapp: 08099991568 <br />
-             Events: 08178775944</p>
+            <h3>Telephone</h3>
+             <p><AiOutlineContacts />Enquiries: 09091490414 <br />
+             <FaWhatsappSquare /> Whatsapp: 08099991568 <br />
+             <BsCalendar2EventFill /> Events: 08178775944</p>
+
+
+             <div className="soc_contact">
+                <h2>Reach us on our social media handles</h2>
+
+              
+                <ul className=''>
+                <li><a href="#"><BsFacebook className='icon'/></a></li>
+                <li><a href="#"><BsGithub className='icon' /></a></li>
+                <li><a href="#"><BsTwitter className='icon' /></a></li>
+                <li><a href="#"><BsLinkedin className='icon' /></a></li>
+                <li><a href="#"><BsInstagram className='icon' /></a></li>
+              </ul>  
+                
+             
+             
+             </div>
            </div>
 
             
