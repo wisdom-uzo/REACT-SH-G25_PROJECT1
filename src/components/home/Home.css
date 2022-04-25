@@ -66,6 +66,7 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url("../../assets/red.jpg");
 }
 .image {
   position: absolute;

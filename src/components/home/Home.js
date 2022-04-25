@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import bread from '../../assets/bread.jpg'
 import beef from '../../assets/beef.jpg'
 import meat from '../../assets/meet.jpg'
+import bg from '../../assets/red.jpg'
 const Home = () => {
   const navigate = useNavigate();
 
@@ -54,7 +55,7 @@ const Home = () => {
     // </section>
 
     <div className>
-        <header style={{ backgroundImage: "url(/img/red.jpg"}}>
+        <header>
           <div className="image">
             <img src={HomeImg} alt="home-img" />
           </div>
