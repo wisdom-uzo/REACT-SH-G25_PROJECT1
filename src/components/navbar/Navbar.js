@@ -7,7 +7,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
 
-  const [showNav, setShowNav] = React.useState(true)
+  const [showNav, setShowNav] = React.useState(false)
   return (
   <>  
     <nav className="navbar">
