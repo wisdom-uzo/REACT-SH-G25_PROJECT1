@@ -69,6 +69,7 @@ const Home = () => {
 
         <section className="top-rated">
           <h2>Our Top Rated Dishes</h2>
+          <div className="line"></div>
         <div className="top-rated-meal">
             {top.map((item ) => (
               <div className="card">

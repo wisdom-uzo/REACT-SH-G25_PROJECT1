@@ -16,6 +16,7 @@ img {
   text-align: center;
   height: 22rem;
   padding: 1rem;
+  box-shadow: 5px 5px 9px rgb(231, 231, 231);
 }
 .product-card-image-container {
   width: 100%;
