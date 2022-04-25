@@ -63,7 +63,7 @@ const Home = () => {
           <div className="header_text">
             <h1 className="hm">The Healthy Food for Wealthy Mood</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, minima.</p>
-            <a href="">Expore our menu</a>          
+            <a href="/products">Expore our menu</a>          
           </div>
         </header>
 
