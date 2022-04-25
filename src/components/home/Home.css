@@ -1,26 +1,37 @@
-.home {
-  font-family: cursive;
-  color: aliceblue;
-  height: calc(100vh - 80px);
-  display: flex;
-}
+
 
 .home_left {
-  flex: 1;
+  
   margin: 25px;
   margin-top: 13rem;
   margin-left: 100px;
+  font-family: cursive;
+  color: aliceblue;
+  height: calc(100vh - 80px);
+  align-items: flex-start;
+ 
 }
 
-.home_left > h1 {
+.sec{
+  background-image: url("../../assets/red.jpg");
+  background-size:100% 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap:5px;
+  align-items:center ;
+  justify-content: space-around;
+}
+
+.home_left  h1 {
   color: whitesmoke;
   letter-spacing: 3px;
   font-size: 25px;
   font-weight: 700;
+  text-align: center;
 }
 
-.home_left > p{
-  color: black;
+.home_left  p{
+  color: whitesmoke;
   letter-spacing: 1px;
   margin-top: 25px;
   font-size: 15px;
@@ -28,15 +39,6 @@
   text-shadow: 1px 1px 1px;
 }
 
-.home_right > img {
-  flex: 1;
-  width: 45rem;
-  object-fit: contain;
-}
-
-.hm{
-  text-align: center;
-}
 
 .home_button {
   height: 35px;
@@ -48,3 +50,4 @@
   margin-top: 40px;
   cursor: pointer;
 }
+
