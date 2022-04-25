@@ -54,7 +54,7 @@ const Home = () => {
     // </section>
 
     <div className>
-        <header style={{ backgroundImage: "url(/img/red.jpg)"}}>
+        <header>
           <div className="image">
             <img src={HomeImg} alt="home-img" />
           </div>
